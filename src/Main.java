@@ -6,12 +6,12 @@ public class Main {
         //Задание 1
         System.out.println("Task 1");
 
-        int os = 0;
-        if (os == 0) {
+        int clientOs = 0;
+        if (clientOs == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
 
-        else if (os == 1) {
+        else if (clientOs == 1) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
         else System.out.println("Неверное значение");
@@ -24,9 +24,9 @@ public class Main {
 
         if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientOS == 0 && clientDeviceYear >= 2015) {
+        }   if (clientOS == 0 && clientDeviceYear >= 2015) {
             System.out.println("Установите обычную версию приложения для iOS по ссылке");
-        } else if (clientOS == 1 && clientDeviceYear <2015) {
+        }   if (clientOS == 1 && clientDeviceYear <2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         } else {
             System.out.println("Установите обычную версию приложения для Android по ссылке");
@@ -48,9 +48,9 @@ public class Main {
         int deliveryDistance = 95;
         if (deliveryDistance <= 20){
             System.out.println("Потребуется дней: " + 1);
-        } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
+        }   if (deliveryDistance > 20 && deliveryDistance <= 60) {
             System.out.println("Потребуется дней: " + 2);
-        } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
+        }   if (deliveryDistance > 60 && deliveryDistance <= 100) {
             System.out.println("Потребуется дней: " + 3);
         } else System.out.println("Доставки нет");
 
