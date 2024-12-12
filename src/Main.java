@@ -82,6 +82,5 @@ public class Main {
             default:
                 System.out.println("Неверный номер месяца");
         }
-
     }
 }
